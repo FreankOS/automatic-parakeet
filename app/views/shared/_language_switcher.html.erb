@@ -24,7 +24,7 @@
             <!-- Other Languages (clickable) -->
             <%= link_to set_locale_path(locale: locale),
                 method: :patch,
-                class: "flex flex-col items-center p-2 text-sm text-gray-300" do %>
+                class: "flex flex-col items-center p-2 text-sm text-gray-300 hover:underline" do %>
               <span class="text-xs text-center"><%= t("languages.#{locale}") %></span>
             <% end %>
           <% end %>
